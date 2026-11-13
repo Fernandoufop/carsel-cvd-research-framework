@@ -1,0 +1,13 @@
+{
+  "age": 55,
+  "height": 170,
+  "weight": 75,
+  "sex": 1,
+  "ap_hi": 130,
+  "ap_lo": 80,
+  "cholesterol": 1,
+  "glucose": 1,
+  "smoking": 0,
+  "alcohol": 0,
+  "physical_activity": 1
+}

@@ -1,0 +1,11 @@
+services:
+  carsel:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+    environment:
+      CARSEL_MODEL_PATH: /app/artifacts/carsel_model.joblib
+      CARSEL_ENABLE_TRAINING: ${CARSEL_ENABLE_TRAINING:-false}
+      CARSEL_ADMIN_TOKEN: ${CARSEL_ADMIN_TOKEN:-}
